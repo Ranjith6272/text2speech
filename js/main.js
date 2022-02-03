@@ -39,7 +39,7 @@ const speak =()=>{
         return;
     }
     if(textInput.value !==''){
-        body.style.background = 'url(/img/giphy.gif)';
+        body.style.background = 'url(img/giphy.gif)';
         body.style.backgroundRepeat = 'repeat-x';
         body.style.backgroundSize = '100%';
         const temp =document.getElementById("demo");
